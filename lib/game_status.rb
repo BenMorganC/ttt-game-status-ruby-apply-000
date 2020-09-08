@@ -55,7 +55,7 @@ end
 
 def winner(board)
   if over?(board) && won?(board)
-  board.each do |token|
+  win_combination.each do |token|
     if token == "X"
       return "X"
     elsif token == "O"
