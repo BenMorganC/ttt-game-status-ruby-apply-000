@@ -57,9 +57,9 @@ def winner(board)
   if over?(board) && won?(board)
   board.each do |token|
     if token == "X"
-      puts "X"
+      return "X"
     elsif token == "O"
-      puts "O"
+      return "O"
     end
   return FALSE
   end
