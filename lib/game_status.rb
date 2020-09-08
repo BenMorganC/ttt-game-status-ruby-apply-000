@@ -65,10 +65,10 @@ def winner(board)
   position_3 = board[win_index_3] 
     if position_1 == "X"
       return "X"
+      
     elsif position_1 == "O"
       return "O"
     end
+  end
   return FALSE
-  end
-  end
 end
